@@ -1,0 +1,59 @@
+{
+  "uid" : "8d70643196050ab7",
+  "name" : "test_a",
+  "fullName" : "test_02.TestDependenc#test_a",
+  "historyId" : "7d0f5d31578e3c68c6c87c4b2822c883",
+  "time" : {
+    "start" : 1600157404417,
+    "stop" : 1600157404418,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <scripts.test_02.TestDependenc object at 0x0000012771B46FD0>\n\n    @pytest.mark.dependency()\n    @pytest.mark.xfail(reason=\"deliberate fail\")\n    def test_a(self):\n>       assert False\nE       assert False\n\ntest_02.py:22: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "dependency"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDependenc"
+  }, {
+    "name" : "host",
+    "value" : "DEATH-NOTE00"
+  }, {
+    "name" : "thread",
+    "value" : "116-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "dependency" ]
+  },
+  "source" : "8d70643196050ab7.json",
+  "parameterValues" : [ ]
+}

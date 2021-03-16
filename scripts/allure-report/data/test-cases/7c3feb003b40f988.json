@@ -1,0 +1,54 @@
+{
+  "uid" : "7c3feb003b40f988",
+  "name" : "test_c",
+  "fullName" : "test_02.TestDependenc#test_c",
+  "historyId" : "4da29f21278c5536d246900cf1d4676f",
+  "time" : {
+    "start" : 1600157404538,
+    "stop" : 1600157404538,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDependenc"
+  }, {
+    "name" : "host",
+    "value" : "DEATH-NOTE00"
+  }, {
+    "name" : "thread",
+    "value" : "116-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c3feb003b40f988.json",
+  "parameterValues" : [ ]
+}
